@@ -1,48 +1,25 @@
-.cart-item {
+.cart-item-header {
     display: flex;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 16px;
-    overflow: hidden;
-  }
-  
-  .cart-item-image-container {
-    padding: 10px;
-  }
-  
-  .cart-item-image {
-    width: 80px; 
-    height: 80px; 
-    object-fit: cover; 
-    border-radius: 5px;
-  }
-  
-  .cart-item-info {
-    padding: 10px;
-    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center; /* Asegúrate de que los elementos estén alineados verticalmente en el centro */
+    width: 100%;
   }
   
   .cart-item-title {
     font-weight: bold;
     margin: 0;
     color: #333;
-  }
-  
-  .cart-item-quantity {
-    font-size: 0.875rem;
-    color: #666;
-  }
-  
-  .cart-item-description {
-    font-size: 0.875rem;
-    color: #666;
-    margin: 5px 0;
+    font-size: 1rem;
+    flex: 1; /* Esto permite que el título se expanda y empuje el precio hacia la derecha */
   }
   
   .cart-item-price {
     font-size: 1rem;
-    color: #E53935; 
-    margin-left: auto;
+    color: #E53935; /* Rojo para el precio */
+    font-weight: bold;
+    margin-left: 0.5rem; /* Ajusta para espaciado entre el título y el precio */
+    padding: 0.25rem 0.5rem; /* Añade padding para que el precio no esté pegado al borde */
+    background-color: #ffebee; /* Fondo suave para el precio, ajusta según tu diseño */
+    border-radius: 5px; /* Bordes redondeados para el fondo del precio */
   }
   

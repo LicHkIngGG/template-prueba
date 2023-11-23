@@ -4,11 +4,12 @@
     cursor: pointer;
     fill: black;
     position: absolute;
+    
   }
   
   .back-button-icon {
-    width: 24px;
+    width: 35px;
     height: auto;
-    fill: black;
+    
   }
   

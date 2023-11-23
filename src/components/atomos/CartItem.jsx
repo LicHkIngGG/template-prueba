@@ -13,10 +13,17 @@ function CartItem({ title, quantity, price, description, imageUrl }) {
         
         <div className="cart-item-body">
           <p className="cart-item-quantity">{`Cantidad ${quantity} unidades`}</p>
-          <div>
-             <span className="cart-item-price">{`Bs ${price}`}</span>
-          </div>
+          <div className='precio_desc'>
           <p className="cart-item-description">{description}</p>
+          <div className = "precio">
+          <span className="cart-item-price">{`Bs ${price}`}</span>
+          </div>
+
+
+            
+           
+          </div>
+         
         </div>
       </div>
     </div>

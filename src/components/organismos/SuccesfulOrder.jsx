@@ -10,7 +10,6 @@ function SuccessfulOrder() {
   return (
     <div className="successful-order">
       <HeaderGo />
-      <CartItem />
       <OrderSummary />
       <InfoButton />
     </div>
